@@ -18,19 +18,19 @@ a x86 processor and Windows for the Windows version
 
 ## Running the executables
 
-example: uftp ftp.myserver.org
+    example: uftp ftp.myserver.org
 
-     or: uftp -a
+    or: uftp -a
 
-     or: uftp ftp.myserver.o:21
+    or: uftp ftp.myserver.o:21
 
 ## Built with
 
-ARM-uclibc: mini-native-arm4l.tar.bz2
+*ARM-uclibc*: mini-native-arm4l.tar.bz2
 
-x86-Win: mingw-w64
+*x86-Win*: mingw-w64
 
-x86-WSL: standard gcc 7.3.0
+*x86-WSL*: standard gcc 7.3.0
 
 ## Bugs
 
