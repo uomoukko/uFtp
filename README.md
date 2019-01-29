@@ -2,6 +2,8 @@
 
 This repository includes the executable files for my micro ftp client
 
+![DGA4130](img/DGA4130.gif?raw=true)"MODEM"
+
 ## Getting started
 
 Get the exe files for your architecture from the exe directory
