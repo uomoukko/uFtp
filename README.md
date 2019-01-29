@@ -2,9 +2,9 @@
 
 This repository includes the executable files for my micro ftp client
 
-![DGA4130](img/DGA4130.gif?raw=true)
-![WINDOWS](img/win.png?raw=true)
-![WSL/WIN](img/wsl.png?raw=true)
+[![DGA4130](img/DGA4130.gif?raw=true)](exe-files)
+[![WINDOWS](img/win.png?raw=true)](exe-files)
+[![WSL/WIN](img/wsl.png?raw=true)](exe-files)
 
 ## Getting started
 
