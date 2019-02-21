@@ -4,7 +4,7 @@ This repository includes the executable files for my micro ftp client
 
 ## Getting started
 
-Get the exe files for your architecture from the exe directory
+Get the exe files for your architecture pushing the "RELEASE" button
 
 # Prerequisites
 
