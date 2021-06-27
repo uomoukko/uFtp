@@ -5,6 +5,7 @@ This repository includes the *executable files* for my micro ftp client
 ## Getting started
 
 Get the exe files for your architecture pushing the "RELEASE" button
+
 There are 4 architectures: Windows native, Windows/WSL, ARM-uClibc(old) ARM-linux(new)
 
 # Prerequisites
@@ -21,9 +22,11 @@ a x86 processor and Windows for the Windows version
 
     example: uftp ftp.myserver.org
 
-    or: uftp -a
+    or: uftp -a (anonymous mode)
 
-    or: uftp ftp://user:pass@ftp.myserver.o:21
+    or: uftp ftp://john:secret@ftp.myserver.org:21/pub
+
+    (syntax: uftp [-a] [proto://][[user][:pass]@]server[:port][/directories])
 
 ## Built with
 
@@ -37,7 +40,7 @@ a x86 processor and Windows for the Windows version
 
 ## Bugs
 
-Please tell me any bugs/improvements
+Please write me any bugs/improvements
 
 but keep in mind that this client HAS to be very skinny
 
