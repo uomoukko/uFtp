@@ -5,12 +5,13 @@ This repository includes the executable files for my micro ftp client
 ## Getting started
 
 Get the exe files for your architecture pushing the "RELEASE" button
+There are 4 architectures: Windows native, Windows/WSL, ARM-uClibc(old) ARM-linux(new)
 
 # Prerequisites
 
-You will need
+It wil run on
 
-a ARM processor for the ARM version
+an ARM processor for the ARM version
 
 a x86 processor and WSL (windows linux subsystem) for the WSL version
 
@@ -22,7 +23,7 @@ a x86 processor and Windows for the Windows version
 
     or: uftp -a
 
-    or: uftp ftp.myserver.o:21
+    or: uftp ftp://user:pass@ftp.myserver.o:21
 
 ## Built with
 
