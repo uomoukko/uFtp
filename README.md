@@ -10,7 +10,7 @@ Get the exe files for your architecture pushing the "RELEASE" button
 
 You will need
 
-a ARM uclibc processor for the ARM version
+a ARM processor for the ARM version
 
 a x86 processor and WSL (windows linux subsystem) for the WSL version
 
@@ -26,7 +26,8 @@ a x86 processor and Windows for the Windows version
 
 ## Built with
 
-*ARM-uclibc*: mini-native-arm4l.tar.bz2
+*ARM-uclibc*: cross compiler ct-ng
+*ARM-linux*: cross compiler ct-ng
 
 *x86-Win*: mingw-w64
 
