@@ -1,6 +1,6 @@
 # uFtp
 
-This repository includes the executable files for my micro ftp client
+This repository includes the *executable files* for my micro ftp client
 
 ## Getting started
 
@@ -28,11 +28,12 @@ a x86 processor and Windows for the Windows version
 ## Built with
 
 *ARM-uclibc*: cross compiler ct-ng
-*ARM-linux*: cross compiler ct-ng
+
+*ARM-linux* : cross compiler ct-ng
 
 *x86-Win*: mingw-w64
 
-*x86-WSL*: standard gcc 7.3.0
+*x86-WSL*: standard gcc 10.2.0
 
 ## Bugs
 
