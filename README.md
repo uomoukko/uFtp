@@ -25,10 +25,9 @@ or: uftp ftp://john:secret@ftp.myserver.org:21/pub<BR>
 \(syntax: uftp [-a] [proto://][[user][:pass]@]server[:port][/directories])<BR>
 
 ## Built with
-**ARM-uclibc**: cross compiler ct-ng and gcc<BR>
-**ARM-glibc** : cross compiler ct-ng and gcc<BR>
-**x86-Win**: mingw-w64 gcc<BR>
-**x86-WSL**: standard gcc<BR>
+**arm-glibc/uclibc**: cross compiler ct-ng and standard WSL gcc (11.2.0)<BR>
+**x86-Win**: mingw-w64 gcc (10.3.0)<BR>
+**x86-WSL**: standard WSL gcc (11.2.0)<BR>
 
 ## Bugs
 Please contact me for bugs/improvements<BR>
