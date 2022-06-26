@@ -19,9 +19,9 @@ a x86 processor and WSL (needs Windows 10 Linux subsystem) for the WSL version<B
 a x86 processor and just Windows for the Windows version<BR>
 
 ## Running the executables
-example: uftp ftp.myserver.org<BR>
-or: uftp -a (anonymous mode)<BR>
-or: uftp ftp://john:secret@ftp.myserver.org:21/pub<BR>
+example: **uftp** ftp.myserver.org<BR>
+or: **uftp** -a (anonymous mode)<BR>
+or: **uftp** ftp://john:secret@ftp.myserver.org:21/pub<BR>
 \(syntax: uftp [-a] [proto://][[user][:pass]@]server[:port][/directories])<BR>
 
 ## Built with
