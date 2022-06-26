@@ -1,4 +1,5 @@
 # uFtp
+![uftp.png](uftp.png)
 
 ## Very small micro ftp client
 There are 4 architectures: Windows native, Windows/WSL, ARM-uClibc(old) ARM-linux(new)
@@ -21,13 +22,12 @@ or just click [here](https://github.com/uomoukko/uFtp/releases/). It's free for 
     (syntax: uftp [-a] [proto://][[user][:pass]@]server[:port][/directories])
 
 ## Built with
-    *ARM-uclibc*: cross compiler ct-ng
-    *ARM-glibc* : cross compiler ct-ng
-    *x86-Win*: mingw-w64
-    *x86-WSL*: standard gcc
+**ARM-uclibc**: cross compiler ct-ng and gcc<BR>
+**ARM-glibc** : cross compiler ct-ng and gcc<BR>
+**x86-Win**: mingw-w64 gcc<BR>
+**x86-WSL**: standard gcc<BR>
 
 ## Bugs
     Please contact me for bugs/improvements
-    keep in mind that this client HAS to be very skinny
-    in order to fit in the router's ram.
+    Keep in mind that this client HAS to be very skinny in order to fit in the router's ram.
 
