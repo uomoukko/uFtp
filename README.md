@@ -2,7 +2,11 @@
 ![uftp.png](uftp.png)
 
 ## Very small micro ftp client
-There are 4 architectures: Windows native, Windows/WSL, armv7l-uClibc(old) armv7l-glibc(new)<BR>
+There are 4 architectures:<BR>
+Windows native<BR>
+Windows/WSL<BR>
+armv7l-uClibc(old)<BR>
+armv7l-glibc(new)<BR>
 
 ## Getting started
 Get the last release clicking on the **Releases** button located on the **GitHUB** right panel<BR>
@@ -28,5 +32,5 @@ or: uftp ftp://john:secret@ftp.myserver.org:21/pub<BR>
 
 ## Bugs
 Please contact me for bugs/improvements<BR>
-Keep in mind that this client HAS to be very skinny in order to fit in the router's ram.<BR>
+*Keep in mind that this client HAS to be very skinny in order to fit in the router's ram.<BR>*
 
