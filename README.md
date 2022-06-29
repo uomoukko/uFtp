@@ -15,20 +15,20 @@ or just click [here](https://github.com/uomoukko/uFtp/releases/). It's free for 
 # Prerequisites
 It will run on<BR>
 - armv7l in two flavours: uClibc and glibc<BR>
-- x86 and WSL (needs Windows 10 Linux subsystem)<BR>
+- x86 and WSL *(needs Windows 10 Linux subsystem)*<BR>
 - x86 and just Windows<BR>
 
 ## Running the executables
-example:<BR>
+**example:**<BR>
 C:\Users\Myname\Desktop>**uftp** ftp.myserver.org<BR>
-C:\Users\Myname\Desktop>**uftp** -a (anonymous mode)<BR>
+C:\Users\Myname\Desktop>**uftp** -a *(anonymous mode)*<BR>
 C:\Users\Myname\Desktop>**uftp** ftp://john:secret@ftp.myserver.org:21/pub<BR>
 *(syntax: uftp [-a] [proto://][[user][:pass]@]server[:port][/directories])*<BR>
 
 ## Built with
-**arm-glibc/uClibc**: cross compiler ct-ng and standard WSL gcc (11.2.0)<BR>
-**x86-Windows**: mingw-w64 gcc (10.3.0)<BR>
-**x86-WSL**: standard WSL gcc (11.2.0)<BR>
+**arm-glibc/uClibc**: built on WSL using gcc (11.2.0) to build a cross compiler<BR>
+**x86-Windows**: built on Windows using mingw-w64 gcc (10.3.0)<BR>
+**x86-WSL**: built on WSL using gcc (11.2.0)<BR>
 
 ## Bugs
 Please contact me for bugs/improvements<BR>
