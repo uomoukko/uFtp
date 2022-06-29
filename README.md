@@ -3,10 +3,10 @@
 
 ## Very small micro ftp client
 There are 4 architectures:<BR>
-Windows native<BR>
-Windows/WSL<BR>
-armv7l-uClibc(old)<BR>
-armv7l-glibc(new)<BR>
+- Windows native<BR>
+- Windows/WSL<BR>
+- armv7l-uClibc(old)<BR>
+- armv7l-glibc(new)<BR>
 
 ## Getting started
 Get the last release clicking on the **Releases** button located on the **GitHUB** right panel<BR>
