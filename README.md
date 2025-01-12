@@ -1,15 +1,16 @@
 # uFtp
 
-<img src="img/uftp-242.png" alt="Exeicon" width="200" height="200"><BR>
+<p align="center"><img src="img/uftp-242.png" alt="Exe-icon" width="250" height="250"></p>
+
 <TABLE>
   <TR>
-    <TD> <img src="img/win10.png" alt="w10icon" width="100" height="100"><BR>
+    <TD> <img src="img/win10.png" alt="w10-icon" width="100" height="100"><BR>
       For Windows 10<BR>
     </TD>
-    <TD> <img src="img/win11.png" alt="w11icon" width="100" height="100"><BR>
+    <TD> <img src="img/win11.png" alt="w11-icon" width="100" height="100"><BR>
       For Windows 11<BR>
     </TD>
-     <TD> <img src="img/wsl.png" alt="wslicon" width="100" height="100"><BR>
+     <TD> <img src="img/wsl.png" alt="wsl-icon" width="100" height="100"><BR>
       For Windows WSL<BR>
     </TD>
   </TR>
@@ -25,7 +26,7 @@
   </TR>
 </TABLE>
 
-## Very small micro ftp client
+## A very small micro ftp client
 There are 3 architectures:<BR>
 - Windows native<BR>
 - Windows/WSL<BR>
