@@ -2,7 +2,7 @@
 
 <p align="center"><img src="img/uftp.png" alt="Exe-icon" width="250" height="250"></p>
 
-<TABLE>
+<TABLE BORDER=0>
 <TR>
 <TD ALIGN=CENTER> <img src="img/win10.png" alt="w10-icon" width="100" height="100"><BR>Windows 10<BR></TD>
 <TD ALIGN=CENTER> <img src="img/win11.png" alt="w11-icon" width="100" height="100"><BR>Windows 11<BR></TD>
