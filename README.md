@@ -1,6 +1,6 @@
 # uFtp
 
-<p align="center"><img src="img/uftp-242.png" alt="Exe-icon" width="250" height="250"></p>
+<p align="center"><img src="img/uftp.png" alt="Exe-icon" width="250" height="250"></p>
 
 <TABLE>
   <TR>
