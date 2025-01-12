@@ -1,7 +1,11 @@
 # uFtp
-![uftp.png](uftp.png)
-![uftp=242.png](uftp-242.png)
 
+![img/uftp-242.png](img/uftp-242.png)
+![img/win10.png](img/win10.png)
+![img/win11.png](img/win11.png)
+![img/wsl.png](img/wsl.png)
+![img/DGA4130.png](img/DGA4130.png)
+![img/DGA4331.png](img/DGA4331.png)
 ## Very small micro ftp client
 There are 3 architectures:<BR>
 - Windows native<BR>
