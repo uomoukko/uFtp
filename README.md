@@ -3,27 +3,13 @@
 <p align="center"><img src="img/uftp.png" alt="Exe-icon" width="250" height="250"></p>
 
 <TABLE>
-  <TR>
-    <TD> <img src="img/win10.png" alt="w10-icon" width="100" height="100"><BR>
-      For Windows 10<BR>
-    </TD>
-    <TD> <img src="img/win11.png" alt="w11-icon" width="100" height="100"><BR>
-      For Windows 11<BR>
-    </TD>
-     <TD> <img src="img/wsl.png" alt="wsl-icon" width="100" height="100"><BR>
-      For Windows WSL<BR>
-    </TD>
-  </TR>
-</TABLE>
-<TABLE>
- <TR>
-  <TD> <img src="img/DGA4130.png" alt="dga4130icon" width="100" height="100"><BR>
-      For DGA4130<BR>
-  </TD>
-   <TD> <img src="img/DGA4331.png" alt="dga4331icon" width="100" height="100"><BR>
-      For DGA4331<BR>
-    </TD>
-  </TR>
+<TR>
+<TD ALIGN=CENTER> <img src="img/win10.png" alt="w10-icon" width="100" height="100"><BR>Windows 10<BR></TD>
+<TD ALIGN=CENTER> <img src="img/win11.png" alt="w11-icon" width="100" height="100"><BR>Windows 11<BR></TD>
+<TD ALIGN=CENTER> <img src="img/wsl.png" alt="wsl-icon" width="100" height="100"><BR>Windows WSL<BR></TD>
+<TD ALIGN=CENTER> <img src="img/DGA4130.png" alt="dga4130-icon" width="100" height="100"><BR>DGA4130<BR></TD>
+<TD ALIGN=CENTER> <img src="img/DGA4331.png" alt="dga4331-icon" width="100" height="100"><BR>DGA4331<BR></TD>
+</TR>
 </TABLE>
 
 ## A very small micro ftp client
