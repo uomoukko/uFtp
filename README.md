@@ -1,11 +1,30 @@
 # uFtp
 
-![img/uftp-242.png](img/uftp-242.png)
-![img/win10.png](img/win10.png)
-![img/win11.png](img/win11.png)
-![img/wsl.png](img/wsl.png)
-![img/DGA4130.png](img/DGA4130.png)
-![img/DGA4331.png](img/DGA4331.png)
+<img src="img/uftp-242.png" alt="Exeicon" width="200" height="200"><BR>
+<TABLE>
+  <TR>
+    <TD> <img src="img/win10.png" alt="w10icon" width="100" height="100"><BR>
+      For Windows 10<BR>
+    </TD>
+    <TD> <img src="img/win11.png" alt="w11icon" width="100" height="100"><BR>
+      For Windows 11<BR>
+    </TD>
+     <TD> <img src="img/wsl.png" alt="wslicon" width="100" height="100"><BR>
+      For Windows WSL<BR>
+    </TD>
+  </TR>
+</TABLE>
+<TABLE>
+ <TR>
+  <TD> <img src="img/DGA4130.png" alt="dga4130icon" width="100" height="100"><BR>
+      For DGA4130<BR>
+  </TD>
+   <TD> <img src="img/DGA4331.png" alt="dga4331icon" width="100" height="100"><BR>
+      For DGA4331<BR>
+    </TD>
+  </TR>
+</TABLE>
+
 ## Very small micro ftp client
 There are 3 architectures:<BR>
 - Windows native<BR>
