@@ -1,5 +1,6 @@
 # uFtp
 ![uftp.png](uftp.png)
+![uftp=242.png](uftp-242.png)
 
 ## Very small micro ftp client
 There are 3 architectures:<BR>
@@ -27,11 +28,17 @@ C:\Users\Myname\Desktop>**uftp** ftp://john:secret@ftp.myserver.org:21/pub<BR>
 
 ## Built with (updated)
 **x86-Windows**: built on Windows using mingw-w64 gcc (10.3.0)<BR>
-**x86-WSL**: built on WSL using standard gcc version 14.2.0 (Ubuntu 14.2.0-4ubuntu2)<BR>
-**arm-glibc**: built on DGA4331 modem. Compiler in /opt/arm-unknown-linux-gnueabi gcc is version 14.1.0 (crosstool-NG 1.26.0.97_839bfbe) compiler was built on WSL linux (canadian option) by me and transferred to the modem's external usb disk<BR>
+
+**x86-WSL**: built on ubuntu WSL using standard gcc version 14.2.0 (Ubuntu 14.2.0-4ubuntu2)<BR>
+
+**arm-glibc**: built on DGA4331 modem. Compiler in /opt/arm-unknown-linux-gnueabi<BR>
+gcc is version 14.1.0 (crosstool-NG 1.26.0.97_839bfbe)<BR>
+compiler was built on WSL linux (crosstool-ng, canadian option) by me and transferred to the modem's external usb disk<BR>
 
 
 
+## To do
+Implement FTPS/TLS using EXPLICIT MODE via "AUTH TLS"
 
 ## Bugs
 Please contact me for bugs/improvements<BR>
