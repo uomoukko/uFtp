@@ -17,7 +17,7 @@ There are 3 architectures:<BR>
 - Windows native<BR>
 - Windows/WSL<BR>
 - armv7l-glibc(new)<BR>
-- ~~armv7l-uClibc no more because my modem firmware was upgraded to glibc, sorry~~<BR>
+- ~~armv7l-uClibc not supported anymore because my modem firmware was upgraded to glibc, sorry~~<BR>
 
 ## Getting started
 Get the last release clicking on the **Releases** button located on the **GitHUB** right panel<BR>
