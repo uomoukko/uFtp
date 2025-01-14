@@ -25,9 +25,9 @@ or just click [here](https://github.com/uomoukko/uFtp/releases/). It's free for 
 
 # Running the executables
 **example:**<BR>
-C:\Users\Myname\Desktop>**uftp** ftp.myserver.org<BR>
-C:\Users\Myname\Desktop>**uftp** -a *(anonymous mode)*<BR>
-C:\Users\Myname\Desktop>**uftp** ftp://john:secret@ftp.myserver.org:21/pub<BR>
+C:\Users\Myname\Desktop> **uftp** ftp.myserver.org<BR>
+C:\Users\Myname\Desktop> **uftp** -a *(anonymous mode)*<BR>
+C:\Users\Myname\Desktop> **uftp** ftp://john:secret@ftp.myserver.org:21/pub<BR>
 *(syntax: uftp [-a] [proto://][[user][:pass]@]server[:port][/directories])*<BR>
 
 # Build notes
