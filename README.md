@@ -41,7 +41,8 @@ PORT 172,21,x,x,80,20<BR>
 500 I won't open a connection to 172.21.x.x (only to your.public.ip)`
 
 solution: give the command "mode passive", the prompt will change from A <- to P -><BR>
-this means the client will always make outgoing connections to the server, but be careful that the server must be on a public ip.<BR>
+the client will always make outgoing connections to the server (but it must be on a public ip).<BR>
+client and server having both two private ips can not communicate with ftp<BR>
 
 # Build notes
 **x86-Windows**: built on Windows 10 using mingw-w64 gcc (10.3.0)<BR>
