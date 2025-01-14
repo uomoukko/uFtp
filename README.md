@@ -32,8 +32,9 @@ C:\Users\Myname\Desktop> **uftp** ftp://john:secret@ftp.myserver.org:21/pub<BR>
 *(syntax: uftp [-a] [proto://][[user][:pass]@]server[:port][/directories])*<BR>
 
 # Known problems
-if both client and server have private ips the connection using ftp is impossible<BR>
-because at least one of them must be able to receive the other's outgoing connection<BR>
+if two computers have private ips a direct connection is impossible<BR>
+because one of them must be able to receive the other's outgoing connection<BR>
+usually at least the ftp server has a public address<BR>
 
 # Build notes
 **x86-Windows**: built on Windows 10 32/64 bits using mingw-w64 gcc (10.3.0)<BR>
