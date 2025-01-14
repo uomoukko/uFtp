@@ -30,17 +30,18 @@ C:\Users\Myname\Desktop>**uftp** -a *(anonymous mode)*<BR>
 C:\Users\Myname\Desktop>**uftp** ftp://john:secret@ftp.myserver.org:21/pub<BR>
 *(syntax: uftp [-a] [proto://][[user][:pass]@]server[:port][/directories])*<BR>
 
-# Built with (updated)
-**x86-Windows**: built on Windows using mingw-w64 gcc (10.3.0)<BR>
+# Build notes
+**x86-Windows**: built on Windows 10 using mingw-w64 gcc (10.3.0)<BR>
 
-**x86-WSL**: built on ubuntu WSL using standard gcc version 14.2.0 (Ubuntu 14.2.0-4ubuntu2)<BR>
+**x86-WSL**: built on Ubuntu WSL using standard gcc version 14.2.0 (Ubuntu 14.2.0-4ubuntu2)<BR>
 
-**arm-glibc**: built on DGA4331 modem. Compiler in /opt/arm-unknown-linux-gnueabi<BR>
-gcc is version 14.1.0 (crosstool-NG 1.26.0.97_839bfbe)<BR>
-compiler was built on WSL linux (crosstool-ng, canadian option) by me and transferred to the modem's external usb disk<BR>
+**arm-glibc**: built on my DGA4331 modem (YES!)<BR>
+toolchain was built by me on WSL linux (using crosstool-ng, canadian option).<BR>
+the native arm gcc is version 14.1.0 (crosstool-NG 1.26.0.97_839bfbe)<BR>
+then the toolchain was transferred to the modem's /opt/arm-unknown-linux-gnueabi (as a mounted usb disk)<BR>
 
 # To do
-Implement FTPS/TLS using EXPLICIT MODE via "AUTH TLS"
+Somedays I would like to implement FTPS/TLS using EXPLICIT MODE via "AUTH TLS"
 
 # Bugs
 Please contact me for bugs/improvements<BR>
