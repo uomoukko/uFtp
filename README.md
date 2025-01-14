@@ -31,8 +31,9 @@ C:\Users\Myname\Desktop> **uftp** -ap *(anonymous + passive mode)*<BR>
 C:\Users\Myname\Desktop> **uftp** ftp://john:secret@ftp.myserver.org:21/pub<BR>
 *(syntax: uftp [-a] [proto://][[user][:pass]@]server[:port][/directories])*<BR>
 
-# Problems
-client with private ip and server with private ips can not communicate with ftp<BR>
+# Known problems
+if both client and server have private ips the connection using ftp is impossible<BR>
+because at least one of them must be able to receive the other's outgoing connection<BR>
 
 # Build notes
 **x86-Windows**: built on Windows 10 32/64 bits using mingw-w64 gcc (10.3.0)<BR>
