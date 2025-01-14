@@ -14,20 +14,14 @@
 
 # A very small micro ftp client
 There are 3 architectures:<BR>
-- Windows native<BR>
-- Windows/WSL<BR>
-- armv7l-glibc(new)<BR>
+- Windows 64 bit signed PE32+ executable (console) x86-64<BR>
+- Windows/WSL ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV) you need Linux subsystem<BR>
+- armv7l-glibc(new) ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV)<BR>
 - ~~armv7l-uClibc not supported anymore because my modem firmware was upgraded to glibc, sorry~~<BR>
 
 # Getting started
 Get the last release clicking on the **Releases** button located on the **GitHUB** right panel<BR>
 or just click [here](https://github.com/uomoukko/uFtp/releases/). It's free for *personal use*<BR>
-
-# Prerequisites
-It will run on<BR>
-- armv7l with glibc<BR>
-- x86 and WSL *(needs Windows 10/11 Linux subsystem)*<BR>
-- x86 and just Windows<BR>
 
 # Running the executables
 **example:**<BR>
