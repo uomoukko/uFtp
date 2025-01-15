@@ -1,6 +1,6 @@
 # uFtp
 <TABLE><TR><TD>
-<p align="center"><img src="img/uftp.png" alt="uftp-icon" width="250" height="250"></p>
+<p align="center"><img src="img/uftp.png" alt="uftp-icon" width="150" height="150"><br><small>Icon is available only on Windows</small></p>
 
 <TABLE BORDER=0>
 <TR>
@@ -37,13 +37,13 @@ because one of them must be able to receive the other's outgoing connection<BR>
 usually at least the ftp server has a public address<BR>
 
 # Build notes
-**x86-Windows**: built on Windows 10 32/64 bits using mingw-w64 gcc (10.3.0)<BR>
+**x86/x64-Windows**: both 32/64 bits are built on Windows 10 64 bits using TDM-GCC (10.3.0)<BR>
 
-**x86-WSL**: built on Ubuntu WSL using standard gcc version 14.2.0 (Ubuntu 14.2.0-4ubuntu2)<BR>
+**x86-WSL**: built on Ubuntu WSL using standard linux gcc version 14.2.0 (Ubuntu 14.2.0-4ubuntu2)<BR>
 
 **arm-glibc**: built on my DGA4331 modem (YES!)<BR>
 toolchain was built by me on WSL linux (using crosstool-ng, canadian option).<BR>
-the native arm gcc is version 14.1.0 (crosstool-NG 1.26.0.97_839bfbe)<BR>
+the native gcc for arm is version 14.1.0 (crosstool-NG 1.26.0.97_839bfbe)<BR>
 then the toolchain was transferred to the modem's /opt/arm-unknown-linux-gnueabi (as a mounted usb disk)<BR>
 
 # To do
